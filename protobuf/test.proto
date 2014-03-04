@@ -1,6 +1,8 @@
 // Copyright (c) 2008 Johan Euphrosine
 // See LICENSE for details.
 
+option py_generic_services = true;
+
 message TestRequest {
   required string text = 1;
 }
